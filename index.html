@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GUILAMA | Desarrollo Web Profesional</title>
+    <meta name="description"
+        content="Desarrollo web, rediseño, sistemas de gestión, bases de datos y conversión de Excel a sistemas multiplataforma." />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="GUILAMA Logo" class="logo" />
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#cv">Mi CV</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate__animated animate__fadeInDown">
+                    Potencia tu negocio con desarrollo web profesional
+                </h1>
+                <p class="hero-subtitle animate__animated animate__fadeInUp">
+                    Sitios y sistemas a tu medida: rápidos, modernos y listos para crecer.
+                </p>
+                <div class="hero-buttons animate__animated animate__fadeInUp">
+                    <a href="#contacto" class="btn btn-primary">Cotiza tu proyecto</a>
+                    <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Servicios</h2>
+            <p class="section-subtitle">Soluciones enfocadas en resultados para tu negocio</p>
+
+            <div class="services-grid">
+                <!-- 1 -->
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Desarrollo de Sitios Web</h3>
+                    <p>Webs rápidas, seguras y administrables (landing pages, institucionales, catálogos). SEO técnico y
+                        buenas prácticas desde el día 1.</p>
+                </article>
+
+                <!-- 2 -->
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Rediseño Web</h3>
+                    <p>Mejora visual y de usabilidad. Subo tu conversión optimizando estructura, tiempos de carga y
+                        accesibilidad.</p>
+                </article>
+
+                <!-- 3 -->
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-diagram-project"></i></div>
+                    <h3>Desarrollo de Sistemas de Gestión</h3>
+                    <p>Paneles para inventarios, clientes, órdenes y reportes. Roles, permisos, exportaciones y
+                        auditoría.</p>
+                </article>
+
+                <!-- 4 -->
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h3>Bases de Datos</h3>
+                    <p>Modelado y puesta en marcha (MySQL, MongoDB, Supabase, Firebase). Migraciones y copias de
+                        seguridad.</p>
+                </article>
+
+                <!-- 5 -->
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-file-excel"></i></div>
+                    <h3>Transformar Excel a Sistemas Multiplataforma</h3>
+                    <p>Automatiza tus hojas: autenticación, multiusuario, reportes y acceso desde web y móvil.</p>
+                </article>
+
+                <!-- 6 -->
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-cart-arrow-down"></i></div>
+                    <h3>Sistemas de Venta Adaptados a tu Negocio</h3>
+                    <p>Pedidos, carrito, cotizador, pagos e inventario. Integraciones a medida con tu operación.</p>
+                </article>
+            </div>
+
+            <div class="pricing-note">
+                <p>Paquetes flexibles para emprendedores y pymes. ¡Arranquemos hoy!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventajas -->
+    <section class="advantages" id="ventajas">
+        <div class="container">
+            <h2 class="section-title">¿Por qué ahora?</h2>
+            <p class="section-subtitle">Más presencia, más confianza, más ventas</p>
+
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="fas fa-business-time"></i></div>
+                    <h3>Disponible 24/7</h3>
+                    <p>Te encuentran y te contactan en cualquier momento.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Rápido y escalable</h3>
+                    <p>Arquitectura lista para crecer sin dolores de cabeza.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>Confianza y seguridad</h3>
+                    <p>Buenas prácticas, backups y control de accesos.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Enfoque en conversión</h3>
+                    <p>UX/UI pensada para que las visitas se conviertan en clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="about" id="sobre-mi">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-icon-container">
+                    <div class="about-icon"><i class="fas fa-user-tie"></i></div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Hola, soy <span>Guillermo Moyeda</span></h2>
+                    <p>Desarrollador enfocado en crear soluciones web y sistemas que sí resuelven problemas reales de
+                        negocio.</p>
+                    <p>Trabajo con procesos claros, comunicación constante y entregables listos para producción.</p>
+
+                    <div class="mission-vision">
+                        <div class="mv-card">
+                            <h4><i class="fas fa-bullseye"></i> Misión</h4>
+                            <p>Convertir operaciones manuales en plataformas eficientes, medibles y escalables.</p>
+                        </div>
+                        <div class="mv-card">
+                            <h4><i class="fas fa-eye"></i> Visión</h4>
+                            <p>Ser el aliado técnico de confianza para pymes que quieren crecer con tecnología.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV / Habilidades -->
+    <section class="cv-section" id="cv">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <p class="section-subtitle">Stack limpio y moderno para entregar rápido y bien</p>
+
+            <div class="cv-content">
+                <div class="cv-skills">
+                    <h3><i class="fas fa-code"></i> Tecnologías</h3>
+                    <ul class="skills-list">
+                        <li>HTML, CSS, Tailwind CSS</li>
+                        <li>JavaScript (ES6+), PHP</li>
+                        <li>MySQL, Firebase, MongoDB, Supabase</li>
+                        <li>Frameworks: React, Node</li>
+                        <li>Principios de UX/UI</li>
+                        <li>GitHub</li>
+                    </ul>
+
+                    <h3><i class="fas fa-graduation-cap"></i> Educación</h3>
+                    <div class="education-item">
+                        <h4>Desarrollo y Gestión de Software</h4>
+                        <p>Universidad Tecnológica Santa Catarina — En curso</p>
+                    </div>
+                </div>
+
+                <div class="cv-download">
+                    <div class="cv-card">
+                        <div class="cv-icon-container"><i class="fas fa-file-pdf"></i></div>
+                        <h3>Descarga mi CV</h3>
+                        <p>Proyectos, experiencia y resultados.</p>
+                        <a href="images/cv-guillermo-moyeda.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Descargar CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto (simulado) -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contáctame</h2>
+            <p class="section-subtitle">Cuéntame tu idea y te propongo el mejor camino</p>
+
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Tu nombre completo" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Tu teléfono (opcional)" />
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">¿Qué servicio te interesa?</option>
+                                <option value="sitio-web">Desarrollo de Sitio Web</option>
+                                <option value="rediseño-web">Rediseño Web</option>
+                                <option value="sistema-gestion">Sistema de Gestión</option>
+                                <option value="bases-datos">Bases de Datos</option>
+                                <option value="excel-a-sistema">Transformar Excel a Sistema</option>
+                                <option value="sistema-ventas">Sistema de Venta</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar (simulado)</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-text">
+                            <h3>Ubicación</h3>
+                            <p>Monterrey, Nuevo León, México</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="info-text">
+                            <h3>Correo</h3>
+                            <p>guillemoyeda17@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-text">
+                            <h3>Teléfono/WhatsApp</h3>
+                            <p>+52 81 32 56 47 93</p>
+                        </div>
+                    </div>
+
+                    <div class="social-card">
+                        <h3>Redes</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/guillermo.moyeda.391343#" target="_blank"
+                                class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/guillemoyeda10/#" target="_blank"
+                                class="social-link instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/528132564793" target="_blank" class="social-link whatsapp"><i
+                                    class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-container">
+                        <img src="images/logo.png" alt="GUILAMA Logo" class="logo" />
+                    </div>
+                    <p>Desarrollo web y sistemas a la medida para pymes y emprendedores.</p>
+                    <div class="social-links" style="margin-top: 20px;">
+                        <a href="https://www.facebook.com/guillermo.moyeda.391343#" target="_blank"
+                            class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/guillemoyeda10/#" target="_blank"
+                            class="social-link instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/528132564793" target="_blank" class="social-link whatsapp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#ventajas">Ventajas</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#cv">Mi CV</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#servicios">Sitios Web</a></li>
+                        <li><a href="#servicios">Rediseño Web</a></li>
+                        <li><a href="#servicios">Sistemas de Gestión</a></li>
+                        <li><a href="#servicios">Bases de Datos</a></li>
+                        <li><a href="#servicios">Excel → Sistema</a></li>
+                        <li><a href="#servicios">Sistema de Venta</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 GUILAMA. Todos los derechos reservados.</p>
+                <p>Desarrollado por Guillermo Moyeda</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
